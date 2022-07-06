@@ -9,7 +9,7 @@ import "aos/dist/aos.css";
 import Typewriter from "typewriter-effect";
 export default function Home() {
     useEffect(() => {
-        Aos.init({ duration: 1000 });
+        Aos.init({ duration: 1700 });
     }, []);
 
 
