@@ -20,7 +20,7 @@ export default function Resume() {
                         <h5>Check My Resume</h5>
                     </div>
                     <div class="row" style={{ width: "100%" }}>
-                        <div class="col-sm-6" data-aos="fade-right">
+                        <div class="col-sm-6" data-aos="fade-up">
                             <h3 class="resume-title">Summary</h3>
                             <div class="resume-item pb-0">
                                 <h4>Gaurav Gupta</h4>
@@ -57,7 +57,7 @@ export default function Resume() {
                                 </div>
                             </div>
                         </div>
-                        <div class="col-sm-6" data-aos="fade-left">
+                        <div class="col-sm-6" data-aos="fade-up">
                             <h3 class="resume-title">Professional Experience</h3>
                             <div class="resume-item">
                                 <h4>Internship in web development</h4>

@@ -63,14 +63,14 @@ export default function Skills() {
                 </div>
                 <div className="container">
                     <div className='row' style={{ width: "100%" }}>
-                        <div data-aos="fade-right" className="col-sm-6" id="coln1">
+                        <div data-aos="fade-up" className="col-sm-6" id="coln1">
                             <div className='para2'>
                                 <p> Basically I'm a Web developer and Software Developer having knowledge of Frontend and Backend using HTML, CSS, JS, REACT, PHP, AJAX. I'm also a programmer and do Comeptitve Programming using C++ and JAVA on various platform. </p><br />
                                 <p>Also I am having good knowledge of UI/UX design using some tools like Figma and Adobe XD. Also I know about operating system that is LINUX in which I know about administration system and file system and user system.</p><br />
                                 <p>Now apart from these skills, I'm quietly confident, naturally curious, and perpetually working on improving my chops one design problem at a time. I'm constantly into learning new concepts to add to my arsenal.</p>
                             </div>
                         </div>
-                        <div data-aos="fade-left" className="col-sm-6" id="coln">
+                        <div data-aos="fade-up" className="col-sm-6" id="coln">
                             <div className="image">
                                 <img id="class" src={skill} alt="skill" />
                             </div>
@@ -79,7 +79,7 @@ export default function Skills() {
 
                     </div>
                     <div className='row' style={{ width: "100%" }}>
-                        <div className="col-sm-6" data-aos="fade-right">
+                        <div className="col-sm-6" data-aos="fade-up">
                             <strong>HTML: 100%</strong>
                             <div class="progress-bar-wrap">
                                 <div class="progress-bar" role="progressbar" style={{ width: "100%" }} aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
@@ -97,7 +97,7 @@ export default function Skills() {
                                 <div class="progress-bar" role="progressbar" style={{ width: "80%" }} aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
                             </div><br />
                         </div>
-                        <div className="col-sm-6" data-aos="fade-left">
+                        <div className="col-sm-6" data-aos="fade-up">
                             <strong>REACT JS: 75%</strong>
                             <div class="progress-bar-wrap">
                                 <div class="progress-bar" role="progressbar" style={{ width: "75%" }} aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
