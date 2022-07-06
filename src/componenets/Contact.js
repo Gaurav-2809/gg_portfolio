@@ -21,14 +21,14 @@ export default function Contact() {
 
                     <div className="row" style={{ width: "100%" }}>
                         <div className="col-sm-6 ">
-                            <div className="info-box">
+                            <div  data-aos="fade-up" className="info-box">
                             
                                 <h4><i class="fas fa-address-card"></i> My Address</h4>
                                 <p>38/73 Rajeev Colony Gurgaon, Haryana 122001</p>
                             </div>
                         </div>
                         <div className="col-sm-6 ">
-                            <div className="info-box">
+                            <div  data-aos="fade-up" className="info-box">
                                 <i className="bx bx-share-alt"></i>
                                 <h4><i class="fa fa-share-alt" aria-hidden="true"></i> Social Profiles</h4>
                                 <div className="social-links">
@@ -41,14 +41,14 @@ export default function Contact() {
                         </div>
                         <div className="row" style={{ width: "100%" }}></div>
                         <div className="col-sm-6 ">
-                            <div className="info-box">
+                            <div data-aos="fade-up" className="info-box">
                                 <i className="bx bx-envelope"></i>
                                 <h4><i class="fa fa-envelope" aria-hidden="true"></i> Email Me</h4>
                                 <p>gauravgupta1875@gmail.com</p>
                             </div>
                         </div>
                         <div className="col-sm-6">
-                            <div className="info-box">
+                            <div data-aos="fade-up" className="info-box">
                                 <i className="bx bx-phone-call"></i>
                                 <h4><i class="fa fa-phone" aria-hidden="true"></i> Call Me</h4>
                                 <p>+91 9953551807</p>
