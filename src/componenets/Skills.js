@@ -22,8 +22,8 @@ export default function Skills() {
                     <div className="col-sm-4"></div>
                 </div>
                 <div className="container">
-                    <div  data-aos="fade-up" className="row" style={{ width: "100%" }}>
-                        <div className="col-sm-4">
+                    <div className="row" style={{ width: "100%" }}>
+                        <div  data-aos="fade-up" className="col-sm-4">
                             <div className="box1">
                                 <div className="icon2">
                                     <i class="fa fa-laptop" aria-hidden="true"></i>
@@ -32,7 +32,7 @@ export default function Skills() {
                                 <p>I have good knowledge and ensure correct implementation of my knowledge in Web Development to develop Web Aplications. I'm quietly confident in Frontend and Backend Development  </p>
                             </div>
                         </div>
-                        <div className="col-sm-4">
+                        <div   data-aos="fade-up" className="col-sm-4">
                             <div className="box1">
                                 <div className="icon2">
                                     <i class="fa fa-database" aria-hidden="true"></i>
@@ -41,7 +41,7 @@ export default function Skills() {
                                 <p> I love to do competitive programming and have a full knowledge of DSA using C++. And I'm 3 star coder in Problem Solving in Hackerrank. I mainly use GFG and leetcode for the coding.</p>
                             </div>
                         </div>
-                        <div className="col-sm-4">
+                        <div  data-aos="fade-up" className="col-sm-4">
                             <div className="box1">
                                 <div className="icon2">
                                     <i class="fa fa-linux"></i>
