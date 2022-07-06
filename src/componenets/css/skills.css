@@ -1,0 +1,164 @@
+#hire{
+    background-color: #dfdfdf;
+    padding-bottom: 7rem;
+    font-family: 'Poppins', sans-serif;
+}
+.hiremefor{
+    margin-top: 5rem;
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 5rem;
+}
+.text{
+    font-size: 2rem;
+    font-family: "Raleway", sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    position: relative;
+    text-align: center;
+    margin-top: 5rem;
+    /* border-bottom: solid rgb(255, 193, 77) 0.25rem; */
+}
+.text::after{
+    content: "";
+    position: absolute;
+    display: block;
+    width: 7rem;
+    height: 0.25rem;
+    background: rgb(255, 193, 77);
+    bottom: 0;
+    left: calc(50% - 3.6rem);
+}
+.para2{
+    margin-top: 1rem;
+}
+.para2 p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2rem;
+    text-align: justify;
+}
+.progress-bar{
+    height: 0.5rem;
+    background-color: rgb(255, 193, 77);
+}
+.progress-bar-wrap{
+    background-color: rgb(224, 224, 224);
+}
+.box1{
+    background-color: white;
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    margin-bottom: 1rem;
+    /* width: 85%; */
+}
+.box1 p{
+    padding: 0.5rem;
+    color: rgb(95, 95, 95);
+}
+.box1 h5{
+    font-weight: bold;
+}
+.icon2 i{
+    font-size: 2rem;
+    border-radius: 10%;
+    padding: 1.2rem;
+    color: black;
+    background-color: rgb(255, 193, 77);
+    margin-bottom: 2rem;
+    /* top: 15.5rem; */
+    /* position: absolute;
+    transform: translateX(-50%); */
+}
+#skills{
+    background-color: #03151e;
+    color: white;
+    padding-bottom: 3rem;
+    font-family: 'Poppins', sans-serif;
+}
+.box1:hover{
+    background-color: black;
+    color: white;
+}
+.box1 p:hover{
+    color: white;
+}
+.recommend {
+    text-align: center;
+    color: rgb(255, 193, 77);
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+#class{
+    height: 25rem;
+    width: 30rem;
+}
+.recommend h1 {
+    font-weight: 700;
+}
+.imageharshit,
+.recommend1 {
+    text-align: center;
+}
+
+#harshit {
+    height: 7rem;
+    width: 9rem;
+    border-radius: 50%;
+}
+
+.carousel-caption {
+    position: static;
+    right: 15%;
+    bottom: 1.25rem;
+    left: 15%;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    color: #020202;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+#recommendsection {
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+}
+
+.carousel-indicators [data-bs-target] {
+    background-color: grey;
+}
+@media (max-width: 964px){
+    #coln1{
+        flex-basis: content;
+    }
+    #class{
+        margin-left: 6rem;
+    }
+}
+@media (max-width: 767px){
+    /* #coln1{
+        flex-basis: content;
+    } */
+    #class{
+        margin-left: 0;
+    }
+}
+@media (max-width: 543px){
+    .image{
+        text-align: center;
+    }
+    #class{
+        height: 18rem;
+        width: 20rem;
+    }
+}
+@media (max-width: 351px){
+    .image{
+        text-align: center;
+    }
+    #class{
+        height: 12rem;
+        width: 14rem;
+    }
+}

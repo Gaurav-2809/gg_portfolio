@@ -1,0 +1,50 @@
+#contact{
+    width: 100%;
+    background:  url(../../images/black.jpg) top center;
+    background-size: cover;
+}
+#contact .container{
+    background: rgba(0, 0, 0, 0.9);
+    padding: 30px;
+}
+.contact .info-box{
+    color: white;
+    padding: 20px;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.08);
+}
+.social-links{
+    padding: 0.5rem;
+}
+.social-links i{
+    color: white;
+    padding-right: 1rem;
+    font-size: 1.2rem;
+}
+.info-box{
+    margin-bottom: 1.5rem;
+}
+.section-title{
+    text-align: center;  
+}
+.section-title h2{
+    font-size: 3rem;
+    color: rgb(255, 193, 77);
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+}
+#footer{  
+    background-color: white;
+}
+.copyright{
+    text-align: center;
+}
+.copyright{
+    color: black;
+    font-weight: 600;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.info-box h4 i{
+    color:rgb(255, 193, 77)
+}

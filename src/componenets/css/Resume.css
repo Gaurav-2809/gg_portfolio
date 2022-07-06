@@ -1,0 +1,62 @@
+section #contain{
+    /* background: rgba(240, 240, 240, 0.9); */
+    padding: 30px;
+}
+.headingr h1{
+    margin-top: 3rem;
+    color: rgb(255, 193, 77);
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.check h5{
+    color: black;
+    position: relative;
+    font-weight: 500;
+}
+.check h5::after{
+    content: "";
+    position: absolute;
+    display: block;
+    width: 10rem;
+    height: 0.25rem;
+    background: rgb(255, 193, 77);
+    
+}
+.resume-item h4 {
+    line-height: 18px;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-family: "Poppins", sans-serif;
+    color: rgb(255, 193, 77);
+    margin-bottom: 10px;
+}
+.resume-item {
+    padding: 0 0 20px 20px;
+    margin-top: -2px;
+    border-left: 2px solid rgb(255, 193, 77);
+    position: relative;
+}
+.resume-item::before {
+    content: "";
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    border-radius: 50px;
+    left: -9px;
+    top: 0;
+    background: rgb(255, 193, 77);
+    border: 2px solid rgb(255, 193, 77);
+}
+#detail{
+    font-weight: 900;
+    font-size: 1.1rem;
+}
+button.btn.btn-primary{
+    background-color: rgb(255, 193, 77);
+    color: black;
+    font-weight: 500;
+    font-size: 1.2rem;
+    border-color: black;
+}

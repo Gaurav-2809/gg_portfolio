@@ -1,0 +1,142 @@
+nav{
+    background: rgb(0, 0, 0);
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.portfolio{
+    height: 2.5rem;
+    width: 13rem;
+    
+}
+
+.navbar{
+    background-color: black;
+    color: rgb(255, 193, 77);
+    padding-top: 0;
+    padding-bottom: 0;
+    justify-content: center;
+}
+header{
+    position: fixed;
+    left: 0;
+    right: 0;
+    width: 100%;
+    z-index: 1;
+}
+ul.navbar.nav{
+    /* padding-left: 2rem; */
+    display: flex;
+    /* top: -100%; */
+    /* margin-right: 6rem; */
+    /* margin-top: 1.3rem; */
+} 
+.nav-link{
+    color:rgb(255, 193, 77);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    display: inline;
+    position: relative;
+    overflow: hidden;
+    /* display: inline-block; */
+    /* padding: 15px; */
+    text-decoration: none;
+    /* text-transform: uppercase; */
+    /* color: rgb(255, 255, 255); */
+    font-size: 18px;
+    transition: 0.2s ease;
+}
+.openMenu{
+    font-size: 2rem;
+    display: none;
+    cursor: pointer;
+}
+.openMenu i{
+    color: white;
+}
+nav .navbar.nav .closeMenu{
+    font-size: 2rem;
+    display: none;
+    cursor: pointer;
+    color: white;
+}
+.icon1 i{
+    /* margin-top: 1rem; */
+    padding-left: 1.5rem;
+    cursor: pointer;
+    color: rgb(255, 193, 77);
+}
+.icon1 i:hover{
+    color: rgb(255, 193, 77);
+    font-size: 1.25rem;
+}
+a.nav-link:after {
+    content: "";
+    position: absolute;
+    z-index: 1;
+    right: 0;
+    width: 0;
+    bottom: -3px;
+    background: rgb(255, 193, 77);
+    height: 3px;
+    transition-property: left right;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-out;
+}
+a.nav-link:hover:after,
+a.nav-link:focus:after,
+a.nav-link:active:after {
+    left: 0;
+    right: auto;
+    width: 100%;
+}
+a.nav-link:hover{
+    color: rgb(255, 193, 77);
+}
+@media (max-width: 800px){
+    nav .navbar.nav{
+        height: 100vh;
+        position: fixed;
+        top: 0px;
+        right: 0px;
+        left: 0px;
+        z-index: 10;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background: rgb(0, 0, 0);
+        transition: top 1s ease 0s;
+        display: none;
+    }
+    li.nav-item{
+        padding: 0.6rem;
+    }
+    ul.nav.navbar{
+        padding: 0;
+    }
+    nav span.gauravgupta{
+        display: none;
+    }
+    .icon1{
+        display: none;
+    }
+    nav .navbar.nav .closeMenu {
+        display: block;
+        position: absolute;
+        top: 20px;
+        right: 20px;
+    }
+    nav .openMenu {
+        display: block;
+        text-align: end;
+    }
+    .icon1 i {
+        display: inline-block;
+        padding: 12px;
+    }
+    /* .gg{
+        display: none;
+    } */
+}
