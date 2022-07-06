@@ -11,7 +11,7 @@ export default function Resume() {
     
     return (
         <>
-            <section id="resume">
+            <section id="resume" data-aos="fade-up">
                 <div id="contain" className="container">
                     <div className="headingr" style={{ textAlign: "center" }}>
                         <h1>Resume</h1>
@@ -22,7 +22,7 @@ export default function Resume() {
                     <div class="row" style={{ width: "100%" }}>
                         <div class="col-sm-6" data-aos="fade-up">
                             <h3 class="resume-title">Summary</h3>
-                            <div class="resume-item pb-0">
+                            <div class="resume-item pb-0" data-aos="fade-up">
                                 <h4>Gaurav Gupta</h4>
                                 <p><em>Innovative and having multi knowledge about technology such as Web Development, DSA, Linux and Networking as a Fresher.</em></p>
                                 <p>
@@ -36,14 +36,14 @@ export default function Resume() {
 
                             <h3 class="resume-title">Education</h3>
 
-                            <div class="resume-item">
+                            <div class="resume-item" data-aos="fade-up">
                                 <h4>Bachelor of engineering(CSE)</h4>
                                 <h5>2020 - 2024</h5>
                                 <p><em>Chandigarh University, Mohali</em></p>
                                 <p>Pursuing Bachelor of Engineering in Computer Science.<br />
                                     CGPA-8.4</p>
                             </div>
-                            <div class="resume-item">
+                            <div class="resume-item" data-aos="fade-up">
                                 <h4>School Education</h4>
                                 <h5>XII (2019 - 2020)</h5>
                                 <p><em>Lions Public School, Gurgaon</em></p>
@@ -59,7 +59,7 @@ export default function Resume() {
                         </div>
                         <div class="col-sm-6" data-aos="fade-up">
                             <h3 class="resume-title">Professional Experience</h3>
-                            <div class="resume-item">
+                            <div class="resume-item" data-aos="fade-up">
                                 <h4>Internship in web development</h4>
                                 <h5>2022 - Present</h5>
                                 <p><em>Ludhiana, Punjab</em></p>
@@ -72,7 +72,7 @@ export default function Resume() {
                                 </p>
                             </div>
                             <h3 class="resume-title">Project</h3>
-                            <div class="resume-item">
+                            <div class="resume-item" data-aos="fade-up">
                                 <h4>Accounting Project</h4>
                                 <h5>2022 - 2023</h5>
                                 <p><em>Ludhiana, Punjab</em></p>
@@ -84,7 +84,7 @@ export default function Resume() {
                                     </ul>
                                 </p>
                             </div>
-                            <div class="resume-item">
+                            <div class="resume-item" data-aos="fade-up">
                                 <h4>Web Server(LINUX)</h4>
                                 <h5>2022 - 2023</h5>
                                 <p><em>Mohali, Punjab</em></p>

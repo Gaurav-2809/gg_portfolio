@@ -63,18 +63,18 @@ export default function Home() {
                     <div className='col-sm-12'>
                         <div className='row' style={{ width: "100%" }}>
                             <div className='col-sm-5'>
-                                <div className="image3">
-                                    <img className="gaurav2" src={gaurav1} alt="Gaurav"></img>
+                                <div className="image3" data-aos="fade-up">
+                                    <img data-aos="fade-up" className="gaurav2" src={gaurav1} alt="Gaurav"></img>
                                 </div>
                             </div>
                             <div id="col6" className='col-sm-7'>
                                 <div className="aboutme">
                                     <div className='underline'>
-                                        <div className='about' id="about">
-                                            <span style={{ color: "rgb(255, 193, 77)" }}>ABOUT </span>ME
+                                        <div className='about' id="about" data-aos="fade-up">
+                                            <span data-aos="fade-up" style={{ color: "rgb(255, 193, 77)" }}>ABOUT </span>ME
                                         </div>
                                     </div>
-                                    <div className="full">
+                                    <div className="full" data-aos="fade-up">
                                         <p>I'm <span style={{ color: "rgb(255, 193, 77)" }}>Gaurav Gupta</span>  and I'm   <span style={{ color: "rgb(255, 193, 77)" }}><Typewriter
                                             options={{
                                                 autoStart: true,
@@ -88,8 +88,8 @@ export default function Home() {
                                         </p>
                                     </div>
                                     <div className='aboutpara'>
-                                        <p>An analytical and detail oreinted <span style={{ color: "rgb(255, 193, 77)" }}>Programmer</span> and <span style={{ color: "rgb(255, 193, 77)" }}>Web Developer</span> for web applications as a fresher in building, implementing, integrating, testing and customizing with latest technology and tools with the commitment to viable and easily functional web solutions.</p><br />
-                                        <p>I'm pursuing <span style={{ color: "rgb(255, 193, 77)" }}>Bachelor of Engineering</span> focuse in Computer Science and Engineering from <span style={{ color: "rgb(255, 193, 77)" }}>Chandigarh University, Mohali, Punjab.</span> </p>
+                                        <p data-aos="fade-up">An analytical and detail oreinted <span style={{ color: "rgb(255, 193, 77)" }}>Programmer</span> and <span style={{ color: "rgb(255, 193, 77)" }}>Web Developer</span> for web applications as a fresher in building, implementing, integrating, testing and customizing with latest technology and tools with the commitment to viable and easily functional web solutions.</p><br />
+                                        <p data-aos="fade-up">I'm pursuing <span style={{ color: "rgb(255, 193, 77)" }}>Bachelor of Engineering</span> focuse in Computer Science and Engineering from <span style={{ color: "rgb(255, 193, 77)" }}>Chandigarh University, Mohali, Punjab.</span> </p>
                                     </div>
                                 </div>
 

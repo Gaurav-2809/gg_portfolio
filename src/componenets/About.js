@@ -29,7 +29,7 @@ export default function About() {
                     <div className='col-sm-1'></div>
                     <div className='col-sm-10'>
                         <div className='para'>
-                            <p>
+                            <p data-aos="fade-up">
                                 I'm a fresher but have did training in a company. I'm quietly confident, naturally curious, and perpetually working on improving my chops one design problem and bugging at a time. I also love to do competitve programming.
                             </p>
                         </div>
@@ -40,7 +40,7 @@ export default function About() {
                 <div className='container' style={{ width: "100%" }}>
                     <div className='row' style={{ width: "100%" }}>
                         <div className='col-sm-3'>
-                            <div className="image1">
+                            <div className="image1" data-aos="fade-up">
                                 <img className="gaurav1" src={gaurav1} alt="Gaurav"></img>
                             </div>
                         </div>
@@ -48,31 +48,31 @@ export default function About() {
                             <div className="row" style={{ width: "100%" }}>
                                 <div className="col-sm-6">
                                     <div className='heading'>
-                                        <h3>Computer and Science Engineer</h3>
+                                        <h3 data-aos="fade-up">Computer and Science Engineer</h3>
                                     </div>
                                 </div>
                                 <div className="col-sm-6"></div>
                             </div>
                             <div className="row" style={{ width: "100%" }}>
                                 <div className='para1'>
-                                    <p>I'm both Web Developer and Software Developer. I have full knowledge of frontend, backend and Programming.</p>
+                                    <p data-aos="fade-up">I'm both Web Developer and Software Developer. I have full knowledge of frontend, backend and Programming.</p>
                                 </div>
                             </div>
                             <div className='row' style={{ width: "100%" }}>
-                                <div className='col-sm-5'>
+                                <div className='col-sm-5' data-aos="fade-up">
                                     <strong>Birthday: </strong>28th Septmeber 2001<br /><br />
                                     <strong>Phone: </strong>9953551807<br /><br />
                                     <strong>City: </strong>Gurgaon, Haryana<br />
                                 </div>
                                 <div className='col-sm-2'></div>
-                                <div className='col-sm-5'>
+                                <div className='col-sm-5' data-aos="fade-up">
                                     <strong>Age: </strong>21<br /><br />
                                     <strong>Degree: </strong>B.E(CSE)<br /><br />
                                     <strong>Mail: </strong>gauravgupta1875@gmail.com<br />
                                 </div>
                                 <div className='row' style={{ width: "100%" }}>
                                     <div className='para2'>
-                                        <p> Living, learning, & leveling up one day at a time. I'm focusing on more to learn and develop myself in more good positions. But still I know web development, Linux, DSA by making project on it. For more information you can download CV attach.</p>
+                                        <p data-aos="fade-up"> Living, learning, & leveling up one day at a time. I'm focusing on more to learn and develop myself in more good positions. But still I know web development, Linux, DSA by making project on it. For more information you can download CV attach.</p>
                                     </div>
                                 </div>
                             </div>

@@ -8,7 +8,7 @@ import Aos from "aos";
 import "aos/dist/aos.css";
 export default function Skills() {
     useEffect(() => {
-        Aos.init({ duration: 1700 });
+        Aos.init({ duration: 2000 });
     }, []);
 
     return (
@@ -65,9 +65,9 @@ export default function Skills() {
                     <div className='row' style={{ width: "100%" }}>
                         <div data-aos="fade-up" className="col-sm-6" id="coln1">
                             <div className='para2'>
-                                <p> Basically I'm a Web developer and Software Developer having knowledge of Frontend and Backend using HTML, CSS, JS, REACT, PHP, AJAX. I'm also a programmer and do Comeptitve Programming using C++ and JAVA on various platform. </p><br />
-                                <p>Also I am having good knowledge of UI/UX design using some tools like Figma and Adobe XD. Also I know about operating system that is LINUX in which I know about administration system and file system and user system.</p><br />
-                                <p>Now apart from these skills, I'm quietly confident, naturally curious, and perpetually working on improving my chops one design problem at a time. I'm constantly into learning new concepts to add to my arsenal.</p>
+                                <p data-aos="fade-up"> Basically I'm a Web developer and Software Developer having knowledge of Frontend and Backend using HTML, CSS, JS, REACT, PHP, AJAX. I'm also a programmer and do Comeptitve Programming using C++ and JAVA on various platform. </p><br />
+                                <p data-aos="fade-up">Also I am having good knowledge of UI/UX design using some tools like Figma and Adobe XD. Also I know about operating system that is LINUX in which I know about administration system and file system and user system.</p><br />
+                                <p data-aos="fade-up">Now apart from these skills, I'm quietly confident, naturally curious, and perpetually working on improving my chops one design problem at a time. I'm constantly into learning new concepts to add to my arsenal.</p>
                             </div>
                         </div>
                         <div data-aos="fade-up" className="col-sm-6" id="coln">
