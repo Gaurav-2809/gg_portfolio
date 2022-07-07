@@ -41,19 +41,19 @@ export default function Navigation() {
                             </ul>
                             <ul className="mainnav" style={{display : open ? "flex" : "none", top : open ? "0" : "-100%"}}>
                                 <li className="nav-item">
-                                    <HashLink className="nav-link" to="#home">Home</HashLink>
+                                    <HashLink onClick={handleClick} className="nav-link" to="#home">Home</HashLink>
                                 </li>
                                 <li className="nav-item">
-                                    <HashLink className="nav-link" to="#about">About</HashLink>
+                                    <HashLink onClick={handleClick} className="nav-link" to="#about">About</HashLink>
                                 </li>
                                 <li className="nav-item">
-                                    <HashLink className="nav-link" to="#resume">Resume</HashLink>
+                                    <HashLink onClick={handleClick} className="nav-link" to="#resume">Resume</HashLink>
                                 </li>
                                 <li className="nav-item">
-                                    <HashLink className="nav-link" to="#hire">Skills</HashLink>
+                                    <HashLink onClick={handleClick} className="nav-link" to="#hire">Skills</HashLink>
                                 </li>
                                 <li className="nav-item">
-                                    <HashLink className="nav-link" to="#contact">Contact</HashLink>
+                                    <HashLink onClick={handleClick} className="nav-link" to="#contact">Contact</HashLink>
                                 </li>
                                 <div className="closeMenu" onClick={handleClick}><i className="fa fa-times"></i></div>
                             </ul>
