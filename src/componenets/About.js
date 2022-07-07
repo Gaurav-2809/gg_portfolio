@@ -30,7 +30,7 @@ export default function About() {
                     <div className='col-sm-10'>
                         <div className='para'>
                             <p data-aos="fade-up">
-                                I'm a fresher but have did training in a company. I'm quietly confident, naturally curious, and perpetually working on improving my chops one design problem and bugging at a time. I also love to do competitve programming.
+                                I have did training in a company. I'm quietly confident, naturally curious, and perpetually working on improving my chops one design problem and bugging at a time. I also love to do competitve programming.
                             </p>
                         </div>
                     </div>
@@ -60,7 +60,7 @@ export default function About() {
                             </div>
                             <div className='row' style={{ width: "100%" }}>
                                 <div className='col-sm-5' data-aos="fade-up">
-                                    <strong>Birthday: </strong>28th Septmeber 2001<br /><br />
+                                    <strong>Date of Birth: </strong>28th Septmeber 2001<br /><br />
                                     <strong>Phone: </strong>9953551807<br /><br />
                                     <strong>City: </strong>Gurgaon, Haryana<br />
                                 </div>

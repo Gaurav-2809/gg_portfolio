@@ -27,7 +27,7 @@ export default function Resume() {
                                 <p><em>Innovative and having multi knowledge about technology such as Web Development, DSA, Linux and Networking as a Fresher.</em></p>
                                 <p>
                                     <ul>
-                                        <li>Rajeev Colony, Gurgaon</li>
+                                        <li>38/73, Rajeev Colony, Gurgaon</li>
                                         <li>+91 9953551807</li>
                                         <li>gauravgupta1875@gmail.com</li>
                                     </ul>
@@ -47,10 +47,10 @@ export default function Resume() {
                                 <h4>School Education</h4>
                                 <h5>XII (2019 - 2020)</h5>
                                 <p><em>Lions Public School, Gurgaon</em></p>
-                                <p>Complete my 12th with 87.8% </p>
+                                <p>Completed my 12th with 87.8% </p>
                                 <h5>X (2017 - 2018)</h5>
                                 <p><em>Lions Public School, Gurgaon</em></p>
-                                <p>Complete my 10th with 85.8%</p>
+                                <p>Completed my 10th with 85.8%</p>
                                 <div className="buttonn">
                                     <p id="detail">For more details download Resume.</p>
                                     <Link to="/RESUMEGG.pdf" target="_blank" download><button className='btn btn-primary'>Download CV</button></Link>
