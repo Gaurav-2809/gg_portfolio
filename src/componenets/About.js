@@ -9,7 +9,7 @@ import "aos/dist/aos.css";
 
 export default function About() {
     useEffect(() => {
-        Aos.init({ duration: 1700 });
+        Aos.init({ duration: 1800 });
     }, []);
     return (
         <>

@@ -6,7 +6,7 @@ import "aos/dist/aos.css";
 // import { Link } from "react-router-dom";
 export default function Contact() {
     useEffect(() => {
-        Aos.init({ duration: 2000 });
+        Aos.init({ duration: 1800 });
     }, []);
 
     return (

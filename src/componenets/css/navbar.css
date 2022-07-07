@@ -11,7 +11,9 @@ nav{
     width: 13rem;
     
 }
-
+li.nav-item{
+    margin-top: 1rem;
+}
 .navbar{
     background-color: black;
     color: rgb(255, 193, 77);
@@ -26,16 +28,21 @@ header{
     width: 100%;
     z-index: 1;
 }
-ul.navbar.nav{
+#headnav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.mainnavfull{
     /* padding-left: 2rem; */
     display: flex;
     /* top: -100%; */
     /* margin-right: 6rem; */
     /* margin-top: 1.3rem; */
-} 
-.nav-link{
+}
+.mainnavfull li .nav-link{
     color:rgb(255, 193, 77);
-    font-family: Arial, Helvetica, sans-serif;
+    /* font-family: Arial, Helvetica, sans-serif; */
     font-weight: bold;
     display: inline;
     position: relative;
@@ -43,6 +50,8 @@ ul.navbar.nav{
     /* display: inline-block; */
     /* padding: 15px; */
     text-decoration: none;
+    margin-left: 12px;
+    margin-top: 12px;
     /* text-transform: uppercase; */
     /* color: rgb(255, 255, 255); */
     font-size: 18px;
@@ -56,14 +65,14 @@ ul.navbar.nav{
 .openMenu i{
     color: white;
 }
-nav .navbar.nav .closeMenu{
+nav .mainnav .closeMenu{
     font-size: 2rem;
     display: none;
     cursor: pointer;
     color: white;
 }
 .icon1 i{
-    /* margin-top: 1rem; */
+    margin-top: 1rem;
     padding-left: 1.5rem;
     cursor: pointer;
     color: rgb(255, 193, 77);
@@ -95,8 +104,15 @@ a.nav-link:active:after {
 a.nav-link:hover{
     color: rgb(255, 193, 77);
 }
-@media (max-width: 800px){
-    nav .navbar.nav{
+
+.mainnav{
+    display: none;
+}
+@media (max-width: 1140px){
+    .mainnavfull{
+        display: none;
+    }
+    nav .mainnav{
         height: 100vh;
         position: fixed;
         top: 0px;
@@ -108,12 +124,29 @@ a.nav-link:hover{
         align-items: center;
         background: rgb(0, 0, 0);
         transition: top 1s ease 0s;
-        display: none;
+        /* display: none; */
     }
-    li.nav-item{
+    .mainnav li{
         padding: 0.6rem;
     }
-    ul.nav.navbar{
+    .mainnav li .nav-link{
+        color:rgb(255, 193, 77);
+    /* font-family: Arial, Helvetica, sans-serif; */
+    font-weight: bold;
+    display: inline;
+    position: relative;
+    overflow: hidden;
+    /* display: inline-block; */
+    /* padding: 15px; */
+    text-decoration: none;
+    margin-left: 12px;
+    margin-top: 12px;
+    /* text-transform: uppercase; */
+    /* color: rgb(255, 255, 255); */
+    font-size: 18px;
+    transition: 0.2s ease;
+    }
+    ul.mainnav{
         padding: 0;
     }
     nav span.gauravgupta{
@@ -122,7 +155,7 @@ a.nav-link:hover{
     .icon1{
         display: none;
     }
-    nav .navbar.nav .closeMenu {
+    nav .mainnav .closeMenu {
         display: block;
         position: absolute;
         top: 20px;
@@ -139,4 +172,11 @@ a.nav-link:hover{
     /* .gg{
         display: none;
     } */
+    .show{
+        display: flex;
+        top: 0;
+    }
+    .close{
+        top: -100%;
+    }
 }
