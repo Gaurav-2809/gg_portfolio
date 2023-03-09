@@ -53,7 +53,7 @@ export default function Resume() {
                                 <p>Completed my 10th with 85.8%</p>
                                 <div className="buttonn">
                                     <p id="detail">For more details download Resume.</p>
-                                    <Link to="/RESUMEGG.pdf" target="_blank" download><button className='btn btn-primary'>Download CV</button></Link>
+                                    <Link to="/Resume_Gaurav_Gupta.pdf" target="_blank" download><button className='btn btn-primary'>Download CV</button></Link>
                                 </div>
                             </div>
                         </div>
